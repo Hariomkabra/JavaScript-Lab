@@ -1,4 +1,4 @@
-let score ='33'
+/*let score ='33'
 
 console.log(typeof score);
 console.log(typeof (score));
@@ -7,13 +7,13 @@ let valueInNumber = Number (score)
 console.log(typeof valueInNumber);
 console.log(valueInNumber);
 
-/*o/p
+o/p
 string
 string
 number
-33  */
+33 */
 
-let age =null
+/*let age =null
 console.log(typeof age);
 console.log(typeof (age));
 
@@ -21,14 +21,14 @@ let valueInNumber = Number (age)
 console.log(typeof valueInNumber);
 console.log(valueInNumber);
         
-/*o/p
+o/p
 object
 object
 number
 0        */
 
 
-let point =undefined
+/*let point =undefined
 
 
 console.log(typeof point);
@@ -39,7 +39,7 @@ let valueInNumber = Number (point)
 console.log(typeof valueInNumber);
 console.log(valueInNumber);
 
-/*o/p 
+o/p 
 undefined
 undefined
 number
@@ -54,41 +54,41 @@ NaN */
 
 
 
-let isLoggedIn = 1
+/*let isLoggedIn = 1
 
 let booleanIsLoggedIn = Boolean(isLoggedIn)
 console.log(booleanIsLoggedIn);
 
-//o/p
-//true 
+o/p
+true    */
 
 
-let isLoggedIn = ""
-
-let booleanIsLoggedIn = Boolean(isLoggedIn)
-console.log(booleanIsLoggedIn);
-
-//o/p
-//false
-
-let isLoggedIn = "Hariom"
+/*let isLoggedIn = ""
 
 let booleanIsLoggedIn = Boolean(isLoggedIn)
 console.log(booleanIsLoggedIn);
 
-//o/p 
-//true 
+o/p
+false*/
+
+/*let isLoggedIn = "Hariom"
+
+let booleanIsLoggedIn = Boolean(isLoggedIn)
+console.log(booleanIsLoggedIn);
+
+o/p 
+true */
 
 // 1 => true ; o => false
 // "" => false
 // "Hariom" => true
 
 
-let someNumber = 33
+//let someNumber = 33
 
-let stringNumber = String (someNumber)
-console.log(stringNumber);
-console.log(typeof stringNumber);
+//let stringNumber = String (someNumber)
+//console.log(stringNumber);
+//console.log(typeof stringNumber);
 
 //o/p 
 //33
@@ -96,20 +96,20 @@ console.log(typeof stringNumber);
 
 //**********Operations*********** */
 
-console.log(2+2); //4
-console.log(2-2); //0
+/*console.log(2+2); //4
+/console.log(2-2); //0
 console.log(2*2); //4
 console.log(2**3); //8
 console.log(2/3); //0.66666
-console.log(2%3); //2 
+console.log(2%3); 2 */
 
-let str1 = "hello"
+/*let str1 = "hello"
 let str2 = " Hariom"
 let str3 = str1 + str2
 console.log(str3) 
 
 //o/p
-//Hello Hariom  
+Hello Hariom  */
 
 
 //console.log("1"+2); //12
@@ -121,17 +121,19 @@ console.log(str3)
 
 
 
-let value = 3
+/*let value = 3
 let negValue = -value
-console.log(negValue);  //-3 
+console.log(negValue);  //-3 */
 
 //console.log(+true); //1
 //console.log(""); //0
 
 let num1, num2,num3
+
 num1 = num2 = num3 = 2 + 2
+
 let gameCounter = 100
 gameCounter++;
-console.log(gameCounter);  //101
+console.log(gameCounter);   //100
 
 
