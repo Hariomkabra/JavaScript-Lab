@@ -69,7 +69,7 @@
 //console.log(booleanIsLoggedIn);
 
 //o/p
-//false*
+//false
 
 //let isLoggedIn = "Hariom"
 
