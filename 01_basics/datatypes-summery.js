@@ -27,6 +27,8 @@ let myObj = {
     age  : 22,
  }
 
+ //function(){} // Defination of the function
+
  const myfunction = function (){
    console.log("Hello world"); //false
  }
