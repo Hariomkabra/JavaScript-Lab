@@ -53,3 +53,29 @@ let myObj = {
   //     Arrays  =>  object
     //   Function  =>  function
     //  Object  =>  object
+
+    //******************************* */
+
+    //Stack (Primitive) ,Heap(Non-Primitive)
+
+    let myName = "HriomKabra"
+
+    let anotherName = myName
+
+    anotherName="sarangkabra";
+
+    console.log(anotherName); //sarangkabra
+    console.log(anotherName); //sarangkabra
+
+    let userOne = {
+      email : "userone@gmail.com",
+      upi: "user@ybl"
+    }
+
+    let userTwo = userOne
+
+    userTwo.email="Hariom@gmail.com "
+
+    console.log(userOne.email); //Hariom@gmail.com 
+    console.log(userTwo.email); //Hariom@gmail.com 
+    
