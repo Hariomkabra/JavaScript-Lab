@@ -24,3 +24,16 @@ console.log(JsUSer[mySym]) // o/p  mykay1
 console.log(JsUSer.lastLoginDays) // o/p [ 'Monday', 'Saturday' ]
 
 JsUSer.email="hariom@gamil.com"
+
+
+JsUSer.greeting=function(){
+    console.log("Hello Js user");
+
+}
+
+JsUSer.greeting=function(){
+    console.log("Hello Js user, ${ this.name}");  //  o/p [Function (anonymous)]
+    
+}
+
+console.log(JsUSer.greeting);
