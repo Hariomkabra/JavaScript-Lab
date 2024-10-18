@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program Selection</title>
+
+    <style>
+        #ugProgram {
+            display: none;
+        }
+        #pgProgram {
+            display: none;
+        }
+        #DiplomaProgram {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Select Your Program</h1>
+
+    <select id="Program" onchange="myFunction(this.value)">
+        <option>Select Program</option>
+        <option value="01">UG</option>
+        <option value="02">PG</option>
+        <option value="03">Diploma</option>
+    </select>
+    <br><br>
+
+    <select id="ugProgram">
+        <option>Select UG Course</option>
+        <option>B.Tech. CSE</option>
+        <option>B.Tech. Mech</option>
+        <option>B.Tech. IT</option>
+    </select>
+    <br><br>
+
+    <select id="pgProgram">
+        <option>Select PG Course</option>
+        <option>M.Tech. CSE</option>
+        <option>M.Tech. Mech</option>
+        <option>M.Tech. IT</option>
+    </select>
+    <br><br>
+
+    <select id="DiplomaProgram">
+        <option>Select Diploma Course</option>
+        <option>Diploma in CSE</option>
+        <option>Diploma in Mech</option>
+        <option>Diploma in IT</option>
+    </select>
+
+    <script type="text/javascript">
+        function myFunction(x) {
+            if (x === "01") {
+                document.getElementById("ugProgram").style.display = "block";
+                document.getElementById("pgProgram").style.display = "none";
+                document.getElementById("DiplomaProgram").style.display = "none";
+            }
+            if (x === "02") {
+                document.getElementById("ugProgram").style.display = "none";
+                document.getElementById("pgProgram").style.display = "block";
+                document.getElementById("DiplomaProgram").style.display = "none";
+            }
+            if (x === "03") {
+                document.getElementById("ugProgram").style.display = "none";
+                document.getElementById("pgProgram").style.display = "none";
+                document.getElementById("DiplomaProgram").style.display = "block";
+            }
+        }
+    </script>
+
+</body>
+</html>
