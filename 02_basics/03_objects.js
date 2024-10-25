@@ -91,3 +91,19 @@ const {courseInstructor: instructor} = course
 // console.log(courseInstructor);
 console.log(instructor); // o/p //  true
 
+
+
+const course={
+    coursename: "javascript",
+    price:"1999",
+    courseInstructor:"Coder"
+
+}
+//course.courseInstructor
+
+
+const{ courseInstructor } = course
+
+console.log(courseInstructor); // o/p Coder
+
+ 
