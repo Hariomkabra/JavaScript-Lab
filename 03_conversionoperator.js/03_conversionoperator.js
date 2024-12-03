@@ -45,5 +45,3 @@ console.log(gameCounter); // o/p 101
 let roundCounter =100
 ++roundCounter;
 console.log(gameCounter); // o/p 101
-
-
