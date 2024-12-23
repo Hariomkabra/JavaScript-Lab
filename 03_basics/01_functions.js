@@ -34,3 +34,36 @@ function loginUserMessage(username = "sarang"){
     return `${username} just logged in`
 }
 
+// console.log(loginUserMessage("Hariom")) // o/p : Hariom just logged in
+// console.log(loginUserMessage("Hariom")) // o/p : Hariom just logged in
+
+
+function calculateCartPrice(val1, val2, ...num1){
+    return num1
+} 
+
+// console.log(calculateCartPrice(200, 400, 500, 2000))
+
+const user = {
+    username: "Hariom",
+    prices: 177
+}
+
+function handleObject(anyobject){
+    console.log(`Username is ${anyobject. username} and price is ${anyobject.price}`); // o/p : Username is Hariom and price is 399
+} 
+// BAcktick is used to add variables in string(for string interpolation)
+// handleObject(user)
+handleObject({
+    username: "Hariom",
+    price: 399
+})
+
+const myNewArray = [100, 200, 100, 500] 
+
+function returnSecondValue(getArray){
+    return getArray[1]
+}
+
+// console.log(returnSecondValue(myNewArray)); // o/p : 200
+console.log(returnSecondValue([100, 200, 700, 2000]));  // o/p : 200
