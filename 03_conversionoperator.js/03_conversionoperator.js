@@ -35,7 +35,6 @@ console.log(true) // o/p 1
 
 console.log(+true) // o/p  true
 
-
 let gameCounter = 100
 gameCounter++;
 console.log(gameCounter); // o/p 101
