@@ -41,7 +41,7 @@ if (true){
 
 // ++++++++++++++++++ interesting ++++++++++++++++++
 
-// Variable is most powerful in JS , it can hold any type of data
+// Variable is most powerful in JS, it can hold any type of data
 
 
 console.log(addone(6)) // o/p: 7
@@ -56,4 +56,4 @@ function addone (num){
 //     return num + 2
 // }
 
-// in above code addTwo is not a function because it is declared as const and it is not hoisted
+//In above code addTwo is not a function because it is declared as const and it is not hoisted
